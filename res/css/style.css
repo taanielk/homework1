@@ -1,0 +1,45 @@
+html, body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    align-items: center;
+    width: 100%
+}
+
+section img { 
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0%;
+    float: right;
+ }
+
+
+#who-am-i{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0;
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    display: inline-block; 
+    float: none
+}
+
+footer ul li a{
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
